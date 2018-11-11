@@ -1,2 +1,4 @@
-aaa = "Hello python world"
-print(aaa)
+a = 3
+b = 2
+
+print(a/b)
