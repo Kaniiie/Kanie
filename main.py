@@ -1,4 +1,4 @@
-a = 3
-b = 2
+a = {"color": "green", "points": 5}
 
-print(a/b)
+for key, value in a.items():
+    print(key)

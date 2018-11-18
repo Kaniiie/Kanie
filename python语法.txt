@@ -1,5 +1,48 @@
 1. 字符串函数
     title() strip()
+    lower() upper()
 2. 列表
     a = [1,2,3,4,5]
-    
+    a[0]
+    添加元素 a.append()
+    插入元素 a.insert(0,"...")
+    删除元素 del a[0]
+             a.pop()
+             a.pop(0)
+        根据值删除元素 a.remove("...") 有相同元素则只删除第一个
+    组织列表
+        排序 sort()永久性排序 sorted()临时排序
+        倒序 a.reverse()
+        长度 len()
+    创建数字列表:
+        a = list(range(1,5)) #1,2,3,4
+    统计：
+        min() max() sum()
+    列表解析：
+        a = [value**2 for value in range(1,11)]
+    切片：
+        a[0:3]
+        最后三名成员：a[-3:]
+    复制列表：b = a[:]
+3. 元组(值不可改变的列表，但a可以变)
+    a = (1,2,3)
+4. 条件测试
+    if condition:
+        do something
+    elif:
+        do something
+    else:
+        do something
+    多条件：or and
+    检查是否在列表中： in / not in
+    判断列表是否为空： if a:
+5. 字典
+   a = {"color":"green", "points":5}
+   a["color"]
+   添加：a["position"] = 5
+   修改：a["color"] = red
+   删除：del a["color"]
+   遍历：for key, value in a.items()
+         a.keys()
+         a.values()
+print() 函数后面自动加换行符
